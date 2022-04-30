@@ -1,5 +1,5 @@
 # Pro-g-ramming-Challenges
-Completed Pro/g/ramming Challenges
+Completed Pro/g/ramming Challenges.
 
 A compilation of any of the challenges from this list (more specific info commented above code):
 
