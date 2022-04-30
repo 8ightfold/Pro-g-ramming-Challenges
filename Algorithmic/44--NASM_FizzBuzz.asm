@@ -1,6 +1,7 @@
 ; FizzBuzz in 32 bit NASM
 ; Written in 3 days
 ; Change MAX to change the total iterations
+; ECX in _start contains the initial value / general counter
 
 ; Total iterations:
 %define MAX 0xFF
@@ -337,7 +338,7 @@ _start:
     ; EDX: Modulo output (remainder)
     ; ESI: Fizz/Buzz/Both/Null (0b00)
 
-    mov ecx, 1
+    mov ecx, 1  ; Starting value
 
 .@mainloop:
     .@mlfizz:
