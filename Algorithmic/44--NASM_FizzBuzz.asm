@@ -1,4 +1,4 @@
-; FizzBuzz in 32 bit NASM
+; FizzBuzz in 32 bit Unix NASM
 ; Written in 3 days
 ; Change MAX to change the total iterations
 ; ECX in _start contains the initial value / general counter
