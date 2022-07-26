@@ -18,3 +18,15 @@ char* ROT13(char* txt) {
     }
     return rotated;
 }
+
+//------------------[Tests]---------------------------
+#include <stdio.h>
+int main() {
+    char* txt = "Rotate this.";
+    char* txt2 = "HELLO";
+    char* txt3 = "abcdefghijklmnop";
+    printf("%s\n", ROT13("Rotate this."));
+    printf("%s\n", ROT13("HELLO"));
+    printf("%s\n", ROT13("abcdefghijklmnop"));
+}
+//------------------[End Tests]-----------------------
